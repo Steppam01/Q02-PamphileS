@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">sc00-recipeViewer</string>
+  <string name="app_name">Recipe Viewer</string>
+  <string-array name="dishes">
+    <item>Pancakes</item>
+    <item>Chicken Fingers</item>
+    <item>Oreo Cake</item>
+  </string-array>
 </resources>

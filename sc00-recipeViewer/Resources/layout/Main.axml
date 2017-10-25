@@ -3,5 +3,28 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@drawable/radialgradientback">
+    <TextView
+        android:text="Choose a recipe:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="125dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dishSelect"
+        android:entries="@array/dishes"
+        android:layout_marginBottom="20dp"
+        android:background="#fff" />
+    <Button
+        android:text="Recipe Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRecipeDetails"
+        android:background="#fff"
+        android:textColor="#000" />
 </LinearLayout>

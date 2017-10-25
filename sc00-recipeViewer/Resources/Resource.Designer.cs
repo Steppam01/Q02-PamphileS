@@ -28,6 +28,22 @@ namespace sc00_recipeViewer
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int dishes = 2131034112;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -41,11 +57,76 @@ namespace sc00_recipeViewer
 			}
 		}
 		
-		public partial class Layout
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int Cake = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Chicken = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Pancakes = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int radialgradientback = 2130837507;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060006
+			public const int btnCall = 2131099654;
+			
+			// aapt resource value: 0x7f060007
+			public const int btnEmail = 2131099655;
+			
+			// aapt resource value: 0x7f060002
+			public const int btnRecipeDetails = 2131099650;
+			
+			// aapt resource value: 0x7f060005
+			public const int btnSms = 2131099653;
+			
+			// aapt resource value: 0x7f060003
+			public const int dishPicture = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int dishSelect = 2131099649;
+			
+			// aapt resource value: 0x7f060004
+			public const int instructions = 2131099652;
+			
+			// aapt resource value: 0x7f060000
+			public const int textView1 = 2131099648;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int RecipeDetails = 2130903041;
 			
 			static Layout()
 			{
@@ -60,8 +141,8 @@ namespace sc00_recipeViewer
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int app_name = 2130968576;
 			
 			static String()
 			{
