@@ -34,9 +34,7 @@ namespace sc00_recipeViewer
                           "Invert onto wire racks; gently remove pans.Cool cakes completely. \n" +
                           "3. Microwave chocolate and butter in small microwaveable bowl on HIGH 2 min.or until butter is melted.Stir " +
                           "until chocolate is completely melted.Cool 5 min.Meanwhile, beat cream cheese and sugar in large bowl with mixer " +
-                          "until blended. Gently stir in COOL WHIP and crushed cookies. \n" + 
-                          "4. Place 1 cake layer on plate, spread with cream cheese mixture.Top with remaining cake layer.Spread top with " +
-                          "chocolate glaze; let stand 10 min.or until firm.Keep refrigerated."}
+                          "until blended. Gently stir in COOL WHIP and crushed cookies."}
         };
 
         //Retrieving recipes
