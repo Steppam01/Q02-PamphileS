@@ -19,7 +19,7 @@ namespace sc00_recipeViewer
 
             btnRecipeDetails.Click += delegate
             {
-                var recipeDisplayActivity = new Intent(this, typeof(RecipeDisplayActivity));
+                var recipeDisplayActivity = new Intent(this, typeof(RecipeDetailsActivity));
                 Spinner dishes = (Spinner)FindViewById<Spinner>(Resource.Id.dishSelect);
 
                 //Passing recipe data

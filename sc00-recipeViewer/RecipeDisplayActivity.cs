@@ -13,8 +13,8 @@ using Android.Graphics.Drawables;
 
 namespace sc00_recipeViewer
 {
-    [Activity(Label = "RecipeDisplayActivity")]
-    public class RecipeDisplayActivity : Activity
+    [Activity(Label = "RecipeDetailsActivity")]
+    public class RecipeDetailsActivity : Activity
     {
         private RecipeChooser recipeChooser = new RecipeChooser();
 
