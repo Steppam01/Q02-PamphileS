@@ -56,7 +56,7 @@
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="RecipeChooser.cs" />
-    <Compile Include="RecipeDisplayActivity.cs" />
+    <Compile Include="RecipeDetailsActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
